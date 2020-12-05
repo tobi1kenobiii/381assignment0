@@ -1,7 +1,10 @@
 # 381assignment0
 
 
-The following instructions assume that you have installed and tested R, Rstudio, tidyverse, Rmarkdown and tinytex, as described in the file Rinstall which can be found in the Software Installation section of Brightspace.
+The following instructions assume that you have installed and tested R, Rstudio, tidyverse, Rmarkdown and tinytex, as described here:
+
+https://github.com/rpmartin/Rinstall
+
 Steps:
 
     go to https://github.com/rpmartin/381assignment0
