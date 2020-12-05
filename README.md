@@ -7,9 +7,7 @@ https://github.com/rpmartin/Rinstall
 
 Steps:
 
-    go to https://github.com/rpmartin/381assignment0
-
-    click on the green button labeled code.
+    Click on the green button labeled code.
 
     Click on the clipboard icon to copy address to clipboard (the icon is to the right of the text box.)
 
