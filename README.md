@@ -23,13 +23,19 @@ Steps:
 
     Open file assignment0.R
 
-    Ensure that your cursor is at the top of the file assignment0.R (the file is open in the top-left box in Rstudio). Run the code by repeatedly hitting both control and enter. By doing so you step through the code line by line, and in the bottom left panel you see the results of each line of code. The last line of code creates your first graph, which should show up in the bottom right panel.
+    Ensure that your cursor is at the top of the file assignment0.R (the file is open in the top-left box in Rstudio). 
+    Run the code by repeatedly hitting both control and enter. 
+    By doing so you step through the code line by line, and in the bottom left panel you see the results of each line of code. 
+    The last line of code creates your first graph, which should show up in the bottom right panel.
 
-    There should be no errors (yet ;) when you run the code of assignment0.R. If there are errors, do not proceed further! Get in touch either by email or on the message board. Only once you have checked that there are no errors in your assignment0.R file should you open up assignment0.Rmd file.
+    There should be no errors (yet ;) when you run the code of assignment0.R. If there are errors, do not proceed further! 
+    Get in touch either by email or on the message board. 
+    Only once you have checked that there are no errors in your assignment0.R file should you open up assignment0.Rmd file.
 
     In the assignment0.Rmd file enter your name and student ID at the top, and “sign” your academic integrity statement (replace name here with your name).
 
-    Knit your assignment0.Rmd file by hitting the knit button (there is a ball of yarn with a needle sticking out of it beside the word knit). This is called knitting because we are “weaving” together R code (that produces graphs and tables) and prose.
+    Knit your assignment0.Rmd file by hitting the knit button (there is a ball of yarn with a needle sticking out of it beside the word knit). 
+    This is called knitting because we are “weaving” together R code (that produces graphs and tables) and prose.
 
     A new window should open with your assignment… submit it on Brightspace, you are done!
 
