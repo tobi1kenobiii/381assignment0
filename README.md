@@ -1,9 +1,10 @@
 # 381assignment0
 
 
-The following instructions assume that you have installed and tested R, Rstudio, tidyverse, Rmarkdown and tinytex, as described here:
+The following instructions assume that 
 
-https://github.com/rpmartin/Rinstall
+1) you have installed and tested R, Rstudio, tidyverse, Rmarkdown and tinytex, as described here: https://github.com/rpmartin/Rinstall
+2) I have uploaded the data and the .R and .Rmd files (you should see them listed above)
 
 Steps:
 
