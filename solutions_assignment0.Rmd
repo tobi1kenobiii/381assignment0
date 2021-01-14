@@ -40,7 +40,8 @@ In contrast, if not everyone is completely rational then you could probably imag
 first_plot
 ```
 
-Regarding the treatment variable, it looks like the nudge might have been a bit too subtle. Next semester I will compare treatments "your choice" and "can't win if choice > 67". 
+
+There `r ifelse(length(winners)>1, paste0("were ",length(winners)," students who were"), paste0("was ",length(winners)," student who was"))` closest to the target: `r paste(winners,sep=",")` (I will be contacting you shortly to arrange payment). Regarding the treatment variable, it looks like the nudge might have been a bit too subtle. Next semester I will compare treatments "your choice" and "can't win if choice > 67". 
 
 This is not to say that *all* of economics is based on the assumption of rationality.  There is an entire field of economics (behavioural economics) devoted to cataloging the systematic differences we see between human decision making and that of a perfectly rational agent. The goal of environmental policy is to alter behaviour in a way to reduce damages to the environment.  Taking into account these irrationalities *may* lead to better policy outcomes. 
 

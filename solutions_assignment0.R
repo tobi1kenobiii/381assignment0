@@ -14,6 +14,14 @@ mydf <- read_csv(paste("publicdata",slash,"pbeauty.csv",sep=""))%>%
   mutate(target=2/3*mean(choice), 
          error=abs(choice-target))
 
+winners <- mydf%>%
+  ungroup()%>%
+  slice_min(error)%>%
+  select(oneid)%>%
+  pull()
+
+
+
 (first_plot <- ggplot(data=mydf,aes(x=choice))+
     geom_histogram(bins=20)+
     geom_rug(sides = "b", aes(y = 0), alpha=.25)+
