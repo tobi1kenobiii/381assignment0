@@ -29,5 +29,5 @@ winners <- mydf%>%
     labs(title="P-beauty contest: Can we use a nudge to discourage irrational choices?",
     subtitle=paste("irrational choice to the right of dashed line at 68, Target is solid line"))
     )
-
+ggsave(file="first_plot.jpeg",plot=first_plot)
 
