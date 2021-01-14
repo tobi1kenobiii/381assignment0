@@ -1,6 +1,6 @@
 ---
 title: "Assignment 0"
-author: "put your name here"
+author: "put your name and ID here"
 output: 
   pdf_document:
     number_sections: True
