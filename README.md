@@ -8,7 +8,7 @@ The following instructions assume that:
 
 1) you have a minimal installation of R, Rstudio, and the tidyverse, as described here: https://github.com/rpmartin/Rinstall
 
-2) I have uploaded the data and the .R and .Rmd files (you should see them listed above)
+2) I have uploaded the data and the .R and .docx files (you should see them listed above)
 
 Steps:
 
