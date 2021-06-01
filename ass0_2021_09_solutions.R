@@ -8,7 +8,7 @@ library("here")
 library("tidyverse") #we use functions from this library.
 here::i_am("ass0_2021_09_solutions.R")
 mydf <- read_csv(here("publicdata","pbeauty.csv"))%>%
-  mutate(nudge=factor(nudge,labels=c("placeholder: your choice","bad","68 or above bad")))%>%
+  mutate(nudge=factor(nudge,labels=c("placeholder: your choice","68 or above bad")))%>%
   group_by(nudge)%>%
   mutate(target=2/3*mean(choice), 
          error=abs(choice-target))
