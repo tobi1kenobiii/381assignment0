@@ -3,10 +3,10 @@
 The following instructions assume that: 
 
 1) you have, following instructions here: https://github.com/rpmartin/Rinstall, either: 
-  - installed and tested R, Rstudio, tidyverse, Rmarkdown, tinytex, git OR
+  - installed R, Rstudio, tidyverse, Rmarkdown, tinytex and git locally (on your computer) OR
   - signed up for an Rstudio cloud account and installed the tidyverse.
 
-2) I have uploaded the data and the .R and .Rmd files (you should see them listed above.  If not, they will be uploaded shortly after the experiment is completed.)
+2) I have uploaded the data and the .R and .Rmd files (you should see them listed above. If not, they will be uploaded shortly after the experiment is completed.)
 
 Steps:
 
