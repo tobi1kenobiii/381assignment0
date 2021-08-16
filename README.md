@@ -3,12 +3,12 @@
 The following instructions assume that: 
 
 1) you have, following instructions here: https://github.com/rpmartin/Rinstall, either: 
-  - installed R, Rstudio, tidyverse, Rmarkdown, tinytex and git locally (on your computer) OR
+  - installed R, Rstudio, tidyverse, Rmarkdown, and git locally (on your computer) OR
   - signed up for an Rstudio cloud account and installed the tidyverse.
 
 2) I have uploaded the data and the .R and .Rmd files (you should see them listed above. If not, they will be uploaded shortly after the experiment is completed.)
 
-Steps:
+## Steps:
 
 Click on the green button labeled code. (above)
 
@@ -40,5 +40,18 @@ In the solutions_assignment0.Rmd file enter your name and student ID at the top,
 Knit your solutions_assignment0.Rmd file by hitting the knit button (there is a ball of yarn with a needle sticking out of it beside the word knit). 
 This is called knitting because we are “weaving” together R code (that produces graphs and tables) and prose.
 
-A new window should open with your assignment… submit it on Brightspace, you are done!
+A new window should open with your assignment.
+
+## Assignment Submission:
+
+Unfortunately Brightspace strips images out of html files, so you will not be able to submit your knitted html file to brightspace.  Instead,
+
+* Assignment submissions to Brightspace will be your 
+1) .R file
+2) .Rmd file
+3) a link a.k.a. URL for your .html file.
+
+* The easiest way to host your .html file on the web is to click the `publish` button on Rstudio's html viewer (the html viewer opens when you successfully knit your output.) 
+
+* Choose Rpubs and setup a free account: Note that the *content* that you publish on RPubs is publicly viewable: probably best to limit the amount of personal information you provide i.e. do **not** include your student ID, and do **not** include your full name i.e. set author to R. Martin (good) rather than Richard Martin (bad).
 
