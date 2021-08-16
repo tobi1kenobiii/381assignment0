@@ -53,5 +53,5 @@ Unfortunately Brightspace strips images out of html files, so you will not be ab
 
 * The easiest way to host your .html file on the web is to click the `publish` button on Rstudio's html viewer (the html viewer opens when you successfully knit your output.) 
 
-* Choose Rpubs and setup a free account: Note that the *content* that you publish on RPubs is publicly viewable: probably best to limit the amount of personal information you provide i.e. do **not** include your student ID, and do **not** include your full name i.e. set author to R. Martin (good) rather than Richard Martin (bad).
+* Choose Rpubs and setup a free account: Note that the *content* that you publish on RPubs is publicly viewable: probably best to limit the amount of personal information you provide i.e. do **not** include your student ID, and do **not** include your full name i.e. in your .Rmd file set author to R. Martin (good) rather than Richard Martin (bad).
 
