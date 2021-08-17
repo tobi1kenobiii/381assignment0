@@ -35,7 +35,7 @@ There should be no errors (yet ;) when you run the code of solutions_assignment0
 Get in touch either by email or on the message board. 
 Only once you have checked that there are no errors in your solutions_assignment0.R file should you open up solutions_assignment0.Rmd file.
 
-In the solutions_assignment0.Rmd file enter your name and student ID at the top, and “sign” your academic integrity statement (replace name here with your name).
+In the solutions_assignment0.Rmd file enter your first name initial and last name (e.g. Y. Name), and “sign” your academic integrity statement (replace `name here` with first name initial and last name).
 
 Knit your solutions_assignment0.Rmd file by hitting the knit button (there is a ball of yarn with a needle sticking out of it beside the word knit). 
 This is called knitting because we are “weaving” together R code (that produces graphs and tables) and prose.
