@@ -12,7 +12,13 @@ mydf <- read_csv(here("publicdata","pbeauty.csv"))%>%
   mutate(nudge=factor(nudge,labels=c("placeholder: your choice","placeholder: 67 better choice than 68 or more")))%>%
   group_by(nudge)%>%
   mutate(target=2/3*mean(choice), 
-         error=abs(choice-target))
+         error=abs(choice-target),
+         over_67=choice>67)# variable over_67 is a logical TRUE/FALSE
+
+irrational <- mydf%>%
+  summarize(over_67=sum(over_67),#sum() converts logical TRUE=1, FALSE=0, so this counts the number of people in each treatment who chose >67.
+            total=n())%>%# n() counts the total number of subjects in each treatment. 
+  mutate(proportion_irrational=over_67/total)
 
 winners <- mydf%>%
   ungroup()%>%
@@ -24,8 +30,8 @@ winners <- mydf%>%
 
 (first_plot <- ggplot(data=mydf,aes(x=choice))+
     geom_histogram(bins=20)+
-    geom_rug(sides = "b", aes(y = 0), alpha=.25)+
-    geom_vline(xintercept = 68,lty=2)+
+    geom_rug(sides = "b", aes(y = 0), alpha=.25, position="jitter")+
+    geom_vline(xintercept = 67,lty=2)+
     geom_vline(mapping = aes(xintercept = target)) +
     facet_grid(rows=vars(nudge))+
     labs(title="P-beauty contest: Can we use a nudge to discourage irrational choices?",

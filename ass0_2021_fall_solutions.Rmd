@@ -9,6 +9,12 @@ output:
 ```{r setup, include=FALSE}
 # The R code that is embedded in this Rmarkdown file is included in "chunks": This is the first chunk of R code.  Chunks are light grey in colour, whereas regular text (your prose) has a white background. 
 knitr::opts_chunk$set(echo = FALSE)
+library(kableExtra)
+formatter <- function(string){
+  string%>%
+    str_replace_all("_", " ")%>%
+    str_to_title()
+}
 source("ass0_2021_fall_solutions.R") #this is what makes the objects you created in your R code available for inclusion in this document.
 ```
 
@@ -39,6 +45,11 @@ In contrast, if not everyone is completely rational then you could probably imag
 first_plot
 ```
 
+```{r}
+
+kbl(irrational,col.names=formatter(colnames(irrational)),digits=2)%>% 
+  kable_styling(bootstrap_options = c("striped", "hover"), full_width = F)
+```
 
 There `r ifelse(length(winners)>1, paste0("were ",length(winners)," students who were"), paste0("was ",length(winners)," student who was"))` closest to the target: `r paste(winners,sep=",")` (I will be contacting you shortly to arrange payment).
 
